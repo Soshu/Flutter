@@ -1,0 +1,129 @@
+name: device_info
+description: An order management system for customers.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  http: ^0.13.0
+  imei_plugin: ^1.2.0
+  device_info_plus: ^3.2.1
+  network_info_plus: ^2.1.2
+  #device_information:^0.0.4
+  flutter_launcher_icons: ^0.9.0
+  disk_space: ^0.2.1
+  path_provider: ^2.0.8
+  system_info: ^1.0.1
+  flutter_contacts: ^1.1.2
+  call_log: ^3.2.2
+  battery_info: ^1.0.8
+  flutter_sms_inbox: ^0.1.1+1
+  geolocator: ^5.3.1
+  device_apps: ^2.1.1
+  #photo_manager: ^1.3.2
+  #shared_preferences: "^0.4.2"
+  #google_sign_in: "^4.5.6"
+ # flutter_facebook_login: "^3.0.0"
+  #flutter_local_notifications: "^6.0.0"
+  #firebase_messaging: "^10.0.0"
+  #qr_flutter: ^4.0.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Import the provider package.
+  provider: "^4.0.2"
+ # image_picker: ^0.8.0
+ # image_cropper: ^1.2.3
+ # country_code_picker: ^2.0.0
+  permission_handler: ^8.0.0+2
+  rxdart: ^0.27.1
+  #photo_manager: ^1.3.10
+  #avatar_glow: ^1.1.0
+  #sms_autofill: ^2.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/logo.png"
+  image_path_ios: "assets/logo.png"
+ 
+flutter:
+  assets:
+  - assets/splash.png
+  - assets/logo.png
+  
+  - assets/flag.png
+  - assets/2.0x/flag.png
+  - assets/3.0x/flag.png
+
+  - assets/rectangle.png
+  - assets/2.0x/rectangle.png
+  - assets/3.0x/rectangle.png
+  
+  - assets/antDesignBellTwotone.png
+  - assets/2.0x/antDesignBellTwotone.png
+  - assets/3.0x/antDesignBellTwotone.png
+
+  - assets/antDesignShopOutlined.png
+  - assets/2.0x/antDesignShopOutlined.png
+  - assets/3.0x/antDesignShopOutlined.png
+
+  - assets/antDesignMobileOutlined.png
+  - assets/2.0x/antDesignMobileOutlined.png
+  - assets/3.0x/antDesignMobileOutlined.png
+  
+  - assets/google.png
+  - assets/2.0x/google.png
+  - assets/3.0x/google.png
+
+  - assets/fb.png
+  - assets/2.0x/fb.png
+  - assets/3.0x/fb.png
+
+  - assets/home.png
+  - assets/2.0x/home.png
+  - assets/3.0x/home.png
+
+  - assets/orders.png
+  - assets/2.0x/orders.png
+  - assets/3.0x/orders.png
+
+  - assets/settings.png
+  - assets/2.0x/settings.png
+  - assets/3.0x/settings.png
+
+  - assets/circle.png
+  - assets/2.0x/circle.png
+  - assets/3.0x/circle.png
+
+  - assets/ovalfirst.png
+  - assets/2.0x/ovalfirst.png
+  - assets/3.0x/ovalfirst.png
+
+  - assets/oval.png
+  - assets/2.0x/oval.png
+  - assets/3.0x/oval.png
+
+  - assets/ovalCopy.png
+  - assets/2.0x/ovalCopy.png
+  - assets/3.0x/ovalCopy.png
+
+
+  - assets/ovalCopy2.png
+  - assets/2.0x/ovalCopy2.png
+  - assets/3.0x/ovalCopy2.png
+
+  uses-material-design: true
+
+  fonts:
+    - family: Corben
+      fonts:
+        - asset: fonts/Corben/Corben-Bold.ttf
+          weight: 700

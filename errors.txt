@@ -1,0 +1,5 @@
+The plugins `flutter_sms_inbox, imei_plugin` use a deprecated version of the Android embedding.
+To avoid unexpected runtime failures, or future build failures, try to see if these plugins support the Android V2
+embedding. Otherwise, consider removing them since a future release of Flutter will remove these deprecated APIs.
+If you are plugin author, take a look at the docs for migrating the plugin to the V2 embedding:
+https://flutter.dev/go/android-plugin-migration.
